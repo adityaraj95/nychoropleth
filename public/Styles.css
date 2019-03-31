@@ -1,0 +1,13 @@
+header{
+	text-align: center;
+}
+
+body{
+	
+	text-align: center;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+}
