@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactNYC from 'react-nyc-choropleth';
-import logo from './logo.png';
 import './App.css';
+import MyInfo from './components/MyInfo';
 
 
 class Mymap extends React.Component {
@@ -61,7 +61,7 @@ class Mymap extends React.Component {
 	  {
         name: "Governors Island",
         values: [{label: "ZipCode", val: "10004"},{label: "Population", val:"2,990"},{label: "Restaurants", val:""}],
-        color: "#ffadad"
+        color: "#ebf441"
       }
 	  ,
 	  {
@@ -206,22 +206,14 @@ class Mymap extends React.Component {
 
     return (
       <div>
-
-		<header>
-          <img src={logo} alt="logo" />
-		  
-		  <h1>Welcome</h1>
-          <h4>
-            Hover Over The Map to get the information.
-          </h4>
-          
-            
-        </header>
+		
+		<MyInfo/>
+		
 		<div class="map-container">
 			<ReactNYC
           mapboxAccessToken={mapboxAccessToken} // Required
-          mapHeight="800px" // Required
-          mapWidth="600px"
+          mapHeight="700px" // Required
+          mapWidth="500px"
           className="container"
           mapboxType={mapboxType}
           mapCenter={position}
@@ -242,6 +234,7 @@ class Mymap extends React.Component {
     )
   }
 }
+
 
 export default Mymap;
 
