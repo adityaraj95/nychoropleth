@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactNYC from 'react-nyc-choropleth';
+import ReactNYC from './components/ReactNYC';
 import './App.css';
 import MyInfo from './components/MyInfo';
 import Footer from './components/Footer';
@@ -212,8 +212,8 @@ class Mymap extends React.Component {
 		
 		<div class="map-container">
 			<ReactNYC
-          mapboxAccessToken={mapboxAccessToken} // Required
-          mapHeight="700px" // Required
+          mapboxAccessToken={mapboxAccessToken} 
+          mapHeight="700px" 
           mapWidth="500px"
           className="container"
           mapboxType={mapboxType}
