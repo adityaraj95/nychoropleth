@@ -207,13 +207,12 @@ class Example extends React.Component {
     return (
       <div>
 
-		<header>
-          <img src={logo} alt="logo" />
-		  
-		  <h1>Welcome</h1>
-          <p>
+	  <header>
+          <img src={logo} alt="logo" />	  
+	  <h1>Welcome</h1>
+          <h4>
             Click on the Map to get the information.
-          </p>
+          </h4>
           
             
         </header>
