@@ -12,15 +12,15 @@ The GeoJson Files used can be found in the directory "./src/components/"
 
 Clone / Download the project using the following command
 
-### `-git clone https://github.com/adityaraj95/nychoropleth.git`
+### `git clone https://github.com/adityaraj95/nychoropleth.git`
 
 go into the directory where the clone is created and type the following command
 
-### `-npm install`
+### `npm install`
 
 Final Step will be to start the localhost server
 
-### `-npm start`
+### `npm start`
 
 This will start the development server and you can view the project in the browser at [http://localhost:3000](http://localhost:3000)
 
