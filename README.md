@@ -64,7 +64,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## Credits
 
 [MapBox](https://www.mapbox.com/)
+
 [react-leaflet](https://github.com/PaulLeCam/react-leaflet)
+
 [Leaflet.js](https://leafletjs.com/)
 
 ## For improvements and Suggestions 
