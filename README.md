@@ -12,7 +12,7 @@ The GeoJson Files used can be found in the directory "./src/components/"
 
 Clone / Download the project using the following command
 
--git clone 
+-git clone https://github.com/adityaraj95/nychoropleth.git
 
 go into the directory where the clone is created and type the following command
 
