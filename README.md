@@ -1,3 +1,7 @@
+## Choropleth Map using React Component
+Choropleth Map For New York City displaying population and number of restaurants which are seperated by Zip Codes.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
