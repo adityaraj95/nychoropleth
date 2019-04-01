@@ -8,6 +8,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The GeoJson Files used can be found in the directory "./src/components/"
 
+## How to install and run this project
+
+Clone / Download the project using the following command
+
+-git clone 
+
+go into the directory where the clone is created and type the following command
+
+-npm install
+
+Final Step will be to start the localhost server
+
+-npm start
+
+Open your browser and the project should be working on localhosh:3000 or "yourLocalHostIPAddress:3000"
+
 ## Available Scripts
 
 In the project directory, you can run:
