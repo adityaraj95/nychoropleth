@@ -61,7 +61,7 @@ class Mymap extends React.Component {
 	  {
         name: "Governors Island",
         values: [{label: "ZipCode", val: "10004"},{label: "Population", val:"2,990"},{label: "Restaurants", val:""}],
-        color: "#ebf441"
+        color: "#ffadad"
       }
 	  ,
 	  {
