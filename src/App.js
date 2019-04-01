@@ -2,6 +2,7 @@ import React from 'react';
 import ReactNYC from 'react-nyc-choropleth';
 import './App.css';
 import MyInfo from './components/MyInfo';
+import Footer from './components/Footer';
 
 
 class Mymap extends React.Component {
@@ -229,6 +230,7 @@ class Mymap extends React.Component {
         />
 		</div>
         
+		<Footer/>
 
       </div>
     )
