@@ -4,6 +4,10 @@ Choropleth Map For New York City displaying population and number of restaurants
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## GeoJson
+
+The GeoJson Files used can be found in the directory "./src/components/"
+
 ## Available Scripts
 
 In the project directory, you can run:
