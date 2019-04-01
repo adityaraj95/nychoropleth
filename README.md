@@ -22,7 +22,7 @@ Final Step will be to start the localhost server
 
 -npm start
 
-Open your browser and the project should be working on localhosh:3000 or "yourLocalHostIPAddress:3000"
+This will start the development server and you can view the project in the browser at [http://localhost:3000](http://localhost:3000)
 
 ## Available Scripts
 
