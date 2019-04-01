@@ -8,7 +8,7 @@ function MyInfo(){
 	return(
 	<div>
 	<header>
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" class="imgg" />
 		  
 		  <h1>Welcome</h1>
           
