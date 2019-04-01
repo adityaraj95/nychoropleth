@@ -4,7 +4,7 @@ import logo from './logo.png';
 import './App.css';
 
 
-class Example extends React.Component {
+class Mymap extends React.Component {
   render() {
     const mapboxAccessToken = "pk.eyJ1IjoiYWM5NjgiLCJhIjoiY2p0dmt0OXo3MXBoeTRhcGlhNTNoeDd1biJ9.RzGY-9NERRA84P0oYObGjw" // Your access token
     const mapboxType = "streets";
@@ -206,13 +206,13 @@ class Example extends React.Component {
 
     return (
       <div>
-	  
-	  
-	  <header>
-          <img src={logo} alt="logo" />	  
-	  <h1>Welcome</h1>
+
+		<header>
+          <img src={logo} alt="logo" />
+		  
+		  <h1>Welcome</h1>
           <h4>
-            Click on the Map to get the information.
+            Hover Over The Map to get the information.
           </h4>
           
             
@@ -243,4 +243,5 @@ class Example extends React.Component {
   }
 }
 
-export default Example;
+export default Mymap;
+
